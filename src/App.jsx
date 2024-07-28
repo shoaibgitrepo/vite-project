@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    const token = "a964a982ea6085e392dfc514d6d68478";
+    const token = "cbe3523e3dc638baa7b20fbc2a2014db";
     axios
       .post("/AgreementDashboard/getAllLeads", {}, { headers: { token } })
       .then((response) => console.log(response.data))

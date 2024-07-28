@@ -11,8 +11,8 @@ function App() {
     const token = "cbe3523e3dc638baa7b20fbc2a2014db";
     axios
       .post("/AgreementDashboard/getAllLeads", {}, { headers: { token } })
-      .then((response) => console.log(response.data))
-      .catch((reason) => console.log(reason));
+      .then((response) => console.log('response', response.data))
+      .catch((reason) => console.log('error', reason));
   }, []);
 
   return (

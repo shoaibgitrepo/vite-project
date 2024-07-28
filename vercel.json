@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/AgreementDashboard/(.*)", "destination": "https://demos.auburnsolutions.com/$1" }
+  ]
+}
